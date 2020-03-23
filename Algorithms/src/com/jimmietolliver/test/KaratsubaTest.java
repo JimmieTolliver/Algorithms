@@ -26,6 +26,7 @@ public class KaratsubaTest {
 		
 		BigInteger result = k.karatsuba(x, y);
 		
+
 		
 		assertEquals(y.multiply(x), result);
 	}
